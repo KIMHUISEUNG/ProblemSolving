@@ -1,5 +1,7 @@
 //let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 /**
+ * 사이클이 존재하는지 찾아서 카운트 하는 문제
+ * 사이클이란 노드들이 1->2->3->1 식으로 순회가능하게 연결된 상태
  */
 const filePath = "/Users/kimhuiseong/Documents/problem/baekjoon/";
 const fs = require("fs");
